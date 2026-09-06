@@ -22,6 +22,7 @@ public class PrimeChecking {
             }
            
         }
+        
          System.out.println();
 
     }
