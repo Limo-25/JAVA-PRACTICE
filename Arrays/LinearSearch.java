@@ -12,7 +12,7 @@ public class LinearSearch {
      }
 
      public static void search(int Arr[], int Key){
-          for(int i=0; i<=Arr.length; i++){
+          for(int i=0; i<Arr.length; i++){
             if (Key==Arr[i]) {
                 System.out.print("The number found at index : " +i);
                 return;
