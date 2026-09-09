@@ -5,6 +5,8 @@ public class ReverseArray {
          int Arr[]={1,2,6,7,10,12,34,55};
          Reverse(Arr);
 
+         
+
          for(int i = 0; i < Arr.length ; i++ ){
          System.out.print( Arr[i] + " ");
          }
@@ -21,6 +23,7 @@ public class ReverseArray {
 
              start++ ;
              end -- ;
+             
         }
        
     }
