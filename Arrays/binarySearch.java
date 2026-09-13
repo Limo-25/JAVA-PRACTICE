@@ -4,9 +4,10 @@ public class binarySearch {
 
     public static void main(String[] args) {
         int Arr[]= {1,2,3,4,5,6,7,8,9,10,11};
-        int Key = 14;
+        int Key = 7;
          Search(Arr, Key);
          System.out.print("Index for the Number " +Key+" is : " +Search(Arr, Key));
+         System.out.println();
     }
 
     public static int Search(int Arr[], int Key){
